@@ -2,11 +2,26 @@
   "name": "socket-example",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "devstart": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Akshit Batra",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.0"
+  }
 }
