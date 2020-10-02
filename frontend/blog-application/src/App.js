@@ -3,9 +3,10 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import About from './components/About';
-import Blog from './components/Blog';
-import Post from './components/Post';
+import About from './containers/About';
+import Blog from './containers/Blog';
+import Post from './containers/Post';
+import Contact from './containers/Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route exact path='/post' component={Post} />
           <Route exact path='/about' component={About} />
+          <Route exact path='/contact' component={Contact} />
           <Route exact path='/' component={Blog} />
         </Switch>
         <Footer />

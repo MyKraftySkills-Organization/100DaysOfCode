@@ -7,3 +7,4 @@
 ### Day 3: Learning basics of typescript and how to implement typescript with node.
 ### Day 4: Making Blog using React.
 ### Day 5: Adding and modifying blog frontend in react.
+### Day 6: Finalizing UI of blog frontend in react

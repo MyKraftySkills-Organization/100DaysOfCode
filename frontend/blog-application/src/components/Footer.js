@@ -1,8 +1,9 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 export default function Footer() {
     return (
-        <footer className="page-footer rgba-stylish-strong special-color-dark text-center text-md-left mt-4 pt-4">
+        <footer className="page-footer rgba-stylish-strong elegant-color-dark text-center text-md-left mt-4 pt-4">
         <div className="container">
             <div className="row text-center text-md-left mt-3 pb-3">
                 <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -14,16 +15,16 @@ export default function Footer() {
                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                     <h6 className="text-uppercase mb-4 font-weight-bold">Category</h6>
                     <p>
-                        <a href="#!">Lifestyle</a>
+                        <Link to="#!">Lifestyle</Link>
                     </p>
                     <p>
-                        <a href="#!">Travel</a>
+                        <Link to="#!">Travel</Link>
                     </p>
                     <p>
-                        <a href="#!">Work</a>
+                        <Link to="#!">Work</Link>
                     </p>
                     <p>
-                        <a href="#!">Fashion</a>
+                        <Link to="#!">Fashion</Link>
                     </p>
                 </div>
                 {/* <!--/.Second column--> */}
@@ -34,16 +35,16 @@ export default function Footer() {
                 <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                     <h6 className="text-uppercase mb-4 font-weight-bold">Useful links</h6>
                     <p>
-                        <a href="#!">Collaboriation</a>
+                        <Link to="#">Collaboriation</Link>
                     </p>
                     <p>
-                        <a href="#!">Media about me</a>
+                        <Link to="#">Media about me</Link>
                     </p>
                     <p>
-                        <a href="#!">Newsletter</a>
+                        <Link to="#">Newsletter</Link>
                     </p>
                     <p>
-                        <a href="#!">Help</a>
+                        <Link to="#">Help</Link>
                     </p>
                 </div>
                 {/* <!--/.Third column--> */}
@@ -86,24 +87,24 @@ export default function Footer() {
                     <div className="social-section text-center text-md-left">
                         <ul className="list-unstyled list-inline">
                             <li className="list-inline-item mx-0">
-                                <a className="btn-floating btn-sm rgba-white-slight mr-xl-4" href="#">
+                                <Link className="btn-floating btn-sm rgba-white-slight mr-xl-4" to="#">
                                     <i className="fab fa-facebook-f"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li className="list-inline-item mx-0">
-                                <a className="btn-floating btn-sm rgba-white-slight mr-xl-4" href="#">
+                                <Link className="btn-floating btn-sm rgba-white-slight mr-xl-4" to="#">
                                     <i className="fab fa-twitter"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li className="list-inline-item mx-0">
-                                <a className="btn-floating btn-sm rgba-white-slight mr-xl-4" href="#">
+                                <Link className="btn-floating btn-sm rgba-white-slight mr-xl-4" to="#">
                                     <i className="fab fa-google-plus-g"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li className="list-inline-item mx-0">
-                                <a className="btn-floating btn-sm rgba-white-slight mr-xl-4" href="#">
+                                <Link className="btn-floating btn-sm rgba-white-slight mr-xl-4" to="#">
                                     <i className="fab fa-linkedin-in"></i>
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
