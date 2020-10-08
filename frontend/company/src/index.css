@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+.woocommerce-product-gallery{ opacity: 1 !important; }
+
+.switch-version {
+  z-index: 1000;
+}
+.switch-to {
+  background-image: url('https://mdbootstrap.com/img/logo/mdb-switch.png');
+}
+.switch-to.mdb-standard {
+  background-position: 0 -160px;
+}
+
+
+
+main input[type=email]:focus,
+main input[type=password]:focus,
+main input[type=text]:focus,
+main input[type=url]:focus,
+main textarea:focus {
+  border: 0;
+}
+
+.embed-responsive-16by9-fix-contact-form::before {
+  height: 450px;
+}
+
+@media (min-width:580px) {
+
+  .modal-contact-form-fix,
+  .modal-contact-form-fix * {
+
+    box-sizing: content-box !important;
+  }
+
+}
+
+@media (min-width: 1400px) {
+  #modalPricing .modal-dialog {
+
+    max-width: 80vw;
+  }
+}
