@@ -7,17 +7,10 @@ function Footer() {
 
   <div style={{backgroundColor: '#5991fb;'}}>
     <div  className="container">
-       
-      <div  className="row py-4 d-flex align-items-center">
-
-         
+      <div  className="row py-4 d-flex align-items-center">  
         <div  className="col-12 col-md-5 text-left mb-md-0">
-          <h6  className="mb-0 white-text text-center text-md-left"><strong>Get connected with us on social
-              networks!</strong></h6>
+          <h6  className="mb-0 white-text text-center text-md-left"><strong>Get connected with us on social networks!</strong></h6>
         </div>
-         
-
-         
         <div  className="col-12 col-md-7 text-center text-md-right">
            
           <a  className="p-2 m-2 fa-lg fb-ic ml-0"><i  className="fab fa-facebook-f white-text mr-lg-4"> </i></a>
