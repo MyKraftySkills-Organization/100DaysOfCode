@@ -7,7 +7,7 @@ export default function Header() {
 <header>
     
     <Navbar/>
-    <section  className="view intro-2 rgba-gradient">
+    <section  className="view intro-2 rgba-gradient pt-5">
       <div  className="red h-100">
         <div  className="container d-flex justify-content-center align-items-center">
           <div  className="row flex-center pt-5 mt-3">
@@ -37,7 +37,6 @@ export default function Header() {
         </div>
       </div>
     </section>
-
   </header>
   
     )

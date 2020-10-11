@@ -263,7 +263,7 @@ export default function Main() {
                                             <h5>Basic plan</h5>
                                             <div className="d-flex justify-content-center">
                                                 <div className="card-circle d-flex justify-content-center align-items-center">
-                                                    <i className="fas fa-home blue-text"></i>
+                                                    <i className="fas fa-home red-text"></i>
                                                 </div>
                                             </div>
 
@@ -272,21 +272,13 @@ export default function Main() {
                                             <p className="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa pariatur id nobis
                                             accusamus
                     deleniti cumque hic laborum.</p>
-                                            <a className="btn btn-blue font-weight-bold btn-rounded">Buy now</a>
+                                            <a className="btn btn-red font-weight-bold btn-rounded">Buy now</a>
                                         </div>
                                     </div>
-
                                 </div>
-
                             </div>
-
-
-
                             <div className="col-lg-4 col-md-12 mb-4">
-
-                                <div className="card blue-gradient">
-
-
+                                <div className="card red">
                                     <div className="text-center white-text">
                                         <div className="card-body">
                                             <h5>Premium plan</h5>
@@ -295,59 +287,36 @@ export default function Main() {
                                                     <i className="fas fa-users white-text"></i>
                                                 </div>
                                             </div>
-
-
                                             <h2 className="font-weight-bold white-text mt-3"><strong>79$</strong></h2>
                                             <p>Esse corporis saepe laudantium velit adipisci cumque iste ratione facere non distinctio
                     cupiditate sequi atque.</p>
-                                            <a className="btn btn-white font-weight-bold btn-rounded">Buy now</a>
+                                            <a className="btn btn-white red-text font-weight-bold btn-rounded">Buy now</a>
                                         </div>
                                     </div>
-
                                 </div>
-
                             </div>
-
-
-
                             <div className="col-lg-4 col-md-12 mb-4">
-
                                 <div className="card">
-
-
                                     <div className="text-center">
                                         <div className="card-body">
                                             <h5>Advanced plan</h5>
                                             <div className="d-flex justify-content-center">
                                                 <div className="card-circle d-flex justify-content-center align-items-center">
-                                                    <i className="fas fa-chart-bar blue-text"></i>
+                                                    <i className="fas fa-chart-bar red-text"></i>
                                                 </div>
                                             </div>
-
-
                                             <h2 className="font-weight-bold dark-grey-text mt-3"><strong>99$</strong></h2>
                                             <p className="grey-text">At ab ea a molestiae corrupti numquam quo beatae minima ratione magni accusantium
                                             repellat
                     eveniet quia vitae.</p>
-                                            <a className="btn btn-blue font-weight-bold btn-rounded">Buy now</a>
+                                            <a className="btn btn-red font-weight-bold btn-rounded">Buy now</a>
                                         </div>
                                     </div>
-
                                 </div>
-
                             </div>
-
-
                         </div>
-
-
                     </section>
-
-
                     <hr />
-
-
-
                     <section className="text-center pb-4">
 
 

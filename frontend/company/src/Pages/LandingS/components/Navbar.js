@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
     return (
-        <nav  className="navbar navbar-expand-lg navbar-dark scrolling-navbar red">
+        <nav  className="navbar navbar-expand-lg fixed-top navbar-dark scrolling-navbar red">
       <div  className="container">
         <a  className="navbar-brand" href="#"><strong>MDB</strong></a>
         <button  className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
